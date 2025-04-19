@@ -15,13 +15,14 @@ brew install --cask <CASK>
 
 ## Formula
 
-| Source                                                                  | Formula                                  | Description                                          |
-| ----------------------------------------------------------------------- | ---------------------------------------- | ---------------------------------------------------- |
-| [dbohdan/initool](https://github.com/dbohdan/initool)                   | [initool.rb](./Formula/initool.rb)       | CLI to Parse INI files.                              |
-| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn) | [ansicolumn.rb](./Formula/ansicolumn.rb) | `column` alternative which supports asci characters. |
+| Source                                                                  | Formula                                            | Description                                          |
+| ----------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- |
+| [dbohdan/initool](https://github.com/dbohdan/initool)                   | [initool.rb](./Formula/initool.rb)                 | CLI to Parse INI files.                              |
+| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn) | [ansicolumn.rb](./Formula/ansicolumn.rb)           | `column` alternative which supports asci characters. |
+| [paulirish/git-open](https://github.com/paulirish/git-open)             | [git-open-helper.rb](./Formula/git-open-helper.rb) | `git-open` script which is more robust.              |
 
 ## Casks
 
-| Source                                            | Cask                                                          | Description                                                                                                                                                      |
-| ------------------------------------------------- | ------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Apple Fonts](https://developer.apple.com/fonts/) | [font-sf-mono-nerd-font.rb](./Cask/font-sf-mono-nerd-font.rb) | Dynamically patch fonts using [`podman`](https://podman.io/) container running <https://github.com/ryanoasis/nerd-fonts>. Generates Apple SF Mono patched fonts. |
+| Source                                            | Cask                                                           | Description                                                                                                                                                      |
+| ------------------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [Apple Fonts](https://developer.apple.com/fonts/) | [font-sf-mono-nerd-font.rb](./Casks/font-sf-mono-nerd-font.rb) | Dynamically patch fonts using [`podman`](https://podman.io/) container running <https://github.com/ryanoasis/nerd-fonts>. Generates Apple SF Mono patched fonts. |
