@@ -15,11 +15,12 @@ brew install --cask <CASK>
 
 ## Formula
 
-| Source                                                                  | Formula                                            | Description                                          |
-| ----------------------------------------------------------------------- | -------------------------------------------------- | ---------------------------------------------------- |
-| [dbohdan/initool](https://github.com/dbohdan/initool)                   | [initool.rb](./Formula/initool.rb)                 | CLI to Parse INI files.                              |
-| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn) | [ansicolumn.rb](./Formula/ansicolumn.rb)           | `column` alternative which supports asci characters. |
-| [paulirish/git-open](https://github.com/paulirish/git-open)             | [git-open-helper.rb](./Formula/git-open-helper.rb) | `git-open` script which is more robust.              |
+| Source                                                                  | Formula                                                  | Description                                               |
+| ----------------------------------------------------------------------- | -------------------------------------------------------- | --------------------------------------------------------- |
+| [dbohdan/initool](https://github.com/dbohdan/initool)                   | [initool.rb](./Formula/initool.rb)                       | CLI to Parse INI files.                                   |
+| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn) | [ansicolumn.rb](./Formula/ansicolumn.rb)                 | `column` alternative which supports asci characters.      |
+| [paulirish/git-open](https://github.com/paulirish/git-open)             | [git-open-helper.rb](./Formula/git-open-helper.rb)       | `git-open` script which is more robust.                   |
+| [pop-os/cosmic-icons](https://github.com/pop-os/cosmic-icons)           | [cosmic-icons-theme.rb](./Formula/cosmic-icons-theme.rb) | COSMIC icons theme by [System76](https://system76.com/). |
 
 ## Casks
 
