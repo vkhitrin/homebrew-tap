@@ -1,6 +1,6 @@
 cask("cosmicding") do
-  version("2025.5.1")
-  sha256("b0c5e98926327863d913fd912aba312cac1118a06e92c58b9c0b9e8232682fe1")
+  version("2025.7.0")
+  sha256("7c335506d211fac03a65ddeb4f07570ed8ae1a45ebb95c318b0954b6dcebc8f7")
 
   url("https://github.com/vkhitrin/cosmicding/releases/download/v#{version}/cosmicding-v#{version}.dmg")
   name("Cosmicding")
