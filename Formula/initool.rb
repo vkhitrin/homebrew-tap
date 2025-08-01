@@ -10,7 +10,7 @@ class Initool < Formula
   depends_on "mlton"
 
   def install
-    system "make", "install", "PREFIX=#{prefix}"
+    system("make", "install", "PREFIX=#{prefix}")
   end
 
   test do
