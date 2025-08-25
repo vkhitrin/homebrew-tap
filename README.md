@@ -15,14 +15,15 @@ brew install --cask <CASK>
 
 ## Formula
 
-| Source                                                                  | Formula                                                  | Description                                              |
-| ----------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
-| [dbohdan/initool](https://github.com/dbohdan/initool)                   | [initool.rb](./Formula/initool.rb)                       | CLI to Parse INI files.                                  |
-| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn) | [ansicolumn.rb](./Formula/ansicolumn.rb)                 | `column` alternative which supports asci characters.     |
-| [paulirish/git-open](https://github.com/paulirish/git-open)             | [git-open-helper.rb](./Formula/git-open-helper.rb)       | `git-open` script which is more robust.                  |
-| [pop-os/cosmic-icons](https://github.com/pop-os/cosmic-icons)           | [cosmic-icons-theme.rb](./Formula/cosmic-icons-theme.rb) | COSMIC icons theme by [System76](https://system76.com/). |
-| [helmfile/helmfile](https://github.com/helmfile/helmfile)               | [helmfile@0171.rb](./Formula/helmfile@0171.rb)           | Version locked `helmfile` to `0.171.0`.                  |
-| [Yakitrak/obsidian-cli](https://github.com/Yakitrak/obsidian-cli)       | [obsidian-cli.rb](./Formula/obsidian-cli.rb)             | `obsidian-cli` from source (HEAD).                       |
+| Source                                                                       | Formula                                                  | Description                                              |
+| ---------------------------------------------------------------------------- | -------------------------------------------------------- | -------------------------------------------------------- |
+| [dbohdan/initool](https://github.com/dbohdan/initool)                        | [initool.rb](./Formula/initool.rb)                       | CLI to Parse INI files.                                  |
+| [tecolicom/App-ansicolumn](https://github.com/tecolicom/App-ansicolumn)      | [ansicolumn.rb](./Formula/ansicolumn.rb)                 | `column` alternative which supports asci characters.     |
+| [paulirish/git-open](https://github.com/paulirish/git-open)                  | [git-open-helper.rb](./Formula/git-open-helper.rb)       | `git-open` script which is more robust.                  |
+| [pop-os/cosmic-icons](https://github.com/pop-os/cosmic-icons)                | [cosmic-icons-theme.rb](./Formula/cosmic-icons-theme.rb) | COSMIC icons theme by [System76](https://system76.com/). |
+| [helmfile/helmfile](https://github.com/helmfile/helmfile)                    | [helmfile@0171.rb](./Formula/helmfile@0171.rb)           | Version locked `helmfile` to `0.171.0`.                  |
+| [Yakitrak/obsidian-cli](https://github.com/Yakitrak/obsidian-cli)            | [obsidian-cli.rb](./Formula/obsidian-cli.rb)             | `obsidian-cli` from source (HEAD).                       |
+| [orobardet/gitlab-ci-linter](https://gitlab.com/orobardeta/gitlab-ci-linter) | [gitlab-ci-linter.rb](./Formula/gitlab-ci-linter.rb)     | Tool for validating .gitlab-ci.yml using Gitlab API.     |
 
 ## Casks
 
