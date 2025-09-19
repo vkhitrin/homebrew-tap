@@ -10,8 +10,6 @@ class Socktainer < Formula
   end
   license "Apache-2.0"
 
-  depends_on "make"
-
   def install
     bin.install "socktainer"
   end
