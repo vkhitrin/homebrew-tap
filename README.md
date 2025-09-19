@@ -24,6 +24,7 @@ brew install --cask <CASK>
 | [helmfile/helmfile](https://github.com/helmfile/helmfile)                   | [helmfile@0171.rb](./Formula/helmfile@0171.rb)           | Version locked `helmfile` to `0.171.0`.                  |
 | [Yakitrak/obsidian-cli](https://github.com/Yakitrak/obsidian-cli)           | [obsidian-cli.rb](./Formula/obsidian-cli.rb)             | `obsidian-cli` from source (HEAD).                       |
 | [orobardet/gitlab-ci-linter](https://gitlab.com/orobardet/gitlab-ci-linter) | [gitlab-ci-linter.rb](./Formula/gitlab-ci-linter.rb)     | Tool for validating .gitlab-ci.yml using Gitlab API.     |
+| [socktainer/socktainer](https://github.com/socktainer/socktainer)           | [socktainer.rb](./Formula/socktainer.rb)                 | Docker-compatible REST API on top of Apple container.    |
 
 ## Casks
 
