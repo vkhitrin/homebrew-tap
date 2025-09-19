@@ -14,6 +14,7 @@ class DockerCli < Formula
 
   def install
     bin.install "docker"
+    generate_completions_from_executable(bin / "docker", "completion")
   end
 
   def caveats
