@@ -8,10 +8,9 @@ class Socktainer < Formula
     url(:url)
     strategy(:github_latest)
   end
-  license "MIT"
+  license "Apache-2.0"
 
   depends_on "make"
-  # depends_on "swift" => :build
 
   def install
     bin.install "socktainer"
