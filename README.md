@@ -25,6 +25,7 @@ brew install --cask <CASK>
 | [Yakitrak/obsidian-cli](https://github.com/Yakitrak/obsidian-cli)           | [obsidian-cli.rb](./Formula/obsidian-cli.rb)             | `obsidian-cli` from source (HEAD).                       |
 | [orobardet/gitlab-ci-linter](https://gitlab.com/orobardet/gitlab-ci-linter) | [gitlab-ci-linter.rb](./Formula/gitlab-ci-linter.rb)     | Tool for validating .gitlab-ci.yml using Gitlab API.     |
 | [socktainer/socktainer](https://github.com/socktainer/socktainer)           | [socktainer.rb](./Formula/socktainer.rb)                 | Docker-compatible REST API on top of Apple container.    |
+| [docker CLI](https://docker.com)                                                | [docker-cli.rb](./Formula/socktainer.rb)                 | Docker CLI binary.                                       |
 
 ## Casks
 
