@@ -9,9 +9,22 @@ class Socktainer < Formula
     strategy(:github_latest)
   end
   license "Apache-2.0"
+  head "https://github.com/socktainer/socktainer.git", branch: "main"
+
+  depends_on :macos
+  depends_on xcode: ["26.0", :build]
+  depends_on arch: :arm64
+  depends_on macos: :tahoe
 
   def install
-    bin.install "socktainer"
+    if build.head?
+      ENV["GIT_COMMIT"] = Utils.git_head
+      system "swift", "build", "--disable-sandbox", "--configuration", "release"
+      release_dir = buildpath/".build/release"
+      bin.install release_dir/"socktainer"
+    else
+      bin.install "socktainer"
+    end
   end
 
   service do
@@ -24,7 +37,8 @@ class Socktainer < Formula
 
   def caveats
      <<~EOS
-      Requires native Apple macOS container (https://github.com/apple/container)
+     Requires native Apple macOS container (https://github.com/apple/container)
+     Currently, Apple container is not a dependency of this Formula. 
      EOS
   end
 
