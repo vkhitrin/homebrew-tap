@@ -8,7 +8,7 @@ class HelmfileAT0171 < Formula
   head "https://github.com/helmfile/helmfile.git", branch: "main"
 
   depends_on "go" => :build
-  depends_on "helm"
+  depends_on "helm@3"
 
   conflicts_with "helmfile", because: "both install `helmfile` binaries"
 
