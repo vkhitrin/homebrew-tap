@@ -1,3 +1,4 @@
 {
-  "socktainer": "socktainer/tap"
+    "socktainer": "socktainer/tap",
+    "obsidian-cli": "yakitrak/yakitrak"
 }
