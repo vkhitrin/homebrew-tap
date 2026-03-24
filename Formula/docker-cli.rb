@@ -1,9 +1,9 @@
 class DockerCli < Formula
-  version "29.2.1"
+  version "29.3.0"
   desc "Docker CLI binary"
   homepage "https://docker.com"
   url "https://download.docker.com/mac/static/stable/aarch64/docker-#{version}.tgz"
-  sha256 "10661b2ff179677748d0d5413e922736402a38da40618c1980a1dc9adcf5d7a3"
+  sha256 "bb9de3df0ed22aec01d2cfe495d0429a516ad4cdb189ee85efd8c38dae8e544f"
   livecheck do
     url "https://download.docker.com/mac/static/stable/aarch64/"
     regex(/docker[._-](\d+\.\d+\.\d+)\.tgz/i)
