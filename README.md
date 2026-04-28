@@ -27,6 +27,7 @@ brew install --cask <CASK>
 | [dankamongmen/notcurses](https://github.com/dankamongmen/notcurses)                              | [notcurses-tmux.rb](./Formula/notcurses-tmux.rb)         | **[Temporary]** notcurses with a [patch](https://github.com/dankamongmen/notcurses/issues/2736#issuecomment-2673414042) to support tmux. |
 | [lua 5.1.5](https://www.lua.org)                                                                 | [lua@51.rb](./Formula/lua@51.rb)                         | lua 5.1.5                                                                                                                                |
 | [helm-docs](https://github.com/vkhitrin/helm-docs/tree/feat/add_support_for_remote_dependencies) | [helm-docs@9.rb](./Formula/helm-docs@0.rb)               | Custom fork of <https://github.com/norwoodj/helm-docs>                                                                                   |
+| [simian](https://github.com/quandarypeak/simian)                                                 | [simian.rb](./Formula/simian.rb)                         | Simian Similarity Analyzer                                                                                                               |
 
 ## Casks
 
