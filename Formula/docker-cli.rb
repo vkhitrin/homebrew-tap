@@ -1,8 +1,8 @@
 class DockerCli < Formula
   desc "Command-line client for Docker"
   homepage "https://docker.com"
-  url "https://download.docker.com/mac/static/stable/aarch64/docker-29.5.3.tgz"
-  sha256 "a579c5fb15bebb35dc443cdf6f17b076b6c90afa6cd0e51463b1608e5b235536"
+  url "https://download.docker.com/mac/static/stable/aarch64/docker-29.7.2.tgz"
+  sha256 "b8683ed19d1f06048a496f9b8429e2c71d0b088d475b7487c054ea3666c02a3c"
   license "Apache-2.0"
 
   livecheck do

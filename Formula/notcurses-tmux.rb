@@ -1,12 +1,9 @@
 class NotcursesTmux < Formula
   desc "Blingful character graphics/TUI library"
   homepage "https://nick-black.com/dankwiki/index.php/Notcurses"
-  url "https://github.com/dankamongmen/notcurses/archive/refs/tags/v3.0.16.tar.gz"
-  sha256 "e893c507eab2183b6c598a8071f2a695efa9e4de4b7f7819a457d4b579bacf05"
+  url "https://github.com/dankamongmen/notcurses/archive/refs/tags/v3.0.17.tar.gz"
+  sha256 "b0fbe824984fe25b5a16770dbd00b85d44db5d09cc35bd881b95335d0db53128"
   license "Apache-2.0"
-  revision 1
-
-  conflicts_with "notcurses", because: "both provide `notcurses.h`"
 
   depends_on "cmake" => :build
   depends_on "doctest" => :build
@@ -16,6 +13,8 @@ class NotcursesTmux < Formula
   depends_on "libdeflate"
   depends_on "libunistring"
   depends_on "ncurses"
+
+  conflicts_with "notcurses", because: "both provide `notcurses.h`"
 
   # Apply tmux patch
   patch do
@@ -30,9 +29,9 @@ class NotcursesTmux < Formula
   end
 
   def caveats
-     <<~EOS
-     This is a custom formula to include fix for tmux
-     EOS
+    <<~EOS
+      This is a custom formula to include fix for tmux
+    EOS
   end
 
   test do

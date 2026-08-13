@@ -1,7 +1,7 @@
 class Dhictl < Formula
   desc "CLI to manage Docker Hardened Images"
   homepage "https://github.com/docker-hardened-images/dhictl"
-  version "0.0.4"
+  version "0.0.7"
   license :cannot_represent
 
   livecheck do
@@ -12,24 +12,24 @@ class Dhictl < Formula
   on_macos do
     on_intel do
       url "https://github.com/docker-hardened-images/dhictl/releases/download/v#{version}/dhictl-darwin-amd64"
-      sha256 "8f87863e395d8267f65cc34e01e5b7eb7919d37838ae7f775083adbc37214a54"
+      sha256 "97d4d0dab8d2050463c5301a1571ef7105b6d5875e44b3e7f9ddc87d2a4d6573"
     end
 
     on_arm do
       url "https://github.com/docker-hardened-images/dhictl/releases/download/v#{version}/dhictl-darwin-arm64"
-      sha256 "2c5ba8ce73e1cbcc4d66adce9e5b770d75595638616f83b4e2c53f680a13a9ab"
+      sha256 "4f23c7b2fb11817403ecd1c32a83adb868f352f94a6a493bea7fae54177624d5"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/docker-hardened-images/dhictl/releases/download/v#{version}/dhictl-linux-amd64"
-      sha256 "c8f927ca1000fed400798ce8a217075df6e1d5db74b64fe10ba752ccf30d0b1d"
+      sha256 "0652b8cce9152587affe030526a8aa54de6989f16ce033535da65e7420551f40"
     end
 
     on_arm do
       url "https://github.com/docker-hardened-images/dhictl/releases/download/v#{version}/dhictl-linux-arm64"
-      sha256 "6ef0a88e7024c1b26bf4995ba9859c483ca96141514d58aa360a366b672b127b"
+      sha256 "2e1093ab4822317d36e6120def8794c5977dfc76b22534810af3d73e7153d2cb"
     end
   end
 
