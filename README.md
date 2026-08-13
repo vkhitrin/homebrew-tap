@@ -29,6 +29,7 @@ brew install --cask <CASK>
 | [lua 5.1.5](https://www.lua.org)                                                                 | [lua@51.rb](./Formula/lua@51.rb)                         | lua 5.1.5                                                                                                                                |
 | [helm-docs](https://github.com/vkhitrin/helm-docs/tree/feat/add_support_for_remote_dependencies) | [helm-docs@9.rb](./Formula/helm-docs@0.rb)               | Custom fork of <https://github.com/norwoodj/helm-docs>                                                                                   |
 | [simian](https://github.com/quandarypeak/simian)                                                 | [simian.rb](./Formula/simian.rb)                         | Simian Similarity Analyzer                                                                                                               |
+| [vkhitrin/hub-tool](https://github.com/vkhitrin/hub-tool)                                         | [hub-tool.rb](./Formula/hub-tool.rb)                     | Fork of the previous deprecated <https://github.com/docker/hub-tool>.                                                                     |
 
 ## Casks
 
