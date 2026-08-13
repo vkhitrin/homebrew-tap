@@ -30,6 +30,7 @@ brew install --cask <CASK>
 | [helm-docs](https://github.com/vkhitrin/helm-docs/tree/feat/add_support_for_remote_dependencies) | [helm-docs@9.rb](./Formula/helm-docs@0.rb)               | Custom fork of <https://github.com/norwoodj/helm-docs>                                                                                   |
 | [simian](https://github.com/quandarypeak/simian)                                                 | [simian.rb](./Formula/simian.rb)                         | Simian Similarity Analyzer                                                                                                               |
 | [vkhitrin/hub-tool](https://github.com/vkhitrin/hub-tool)                                         | [hub-tool.rb](./Formula/hub-tool.rb)                     | Fork of the previous deprecated <https://github.com/docker/hub-tool>.                                                                     |
+| [allure-framework/allurectl](https://github.com/allure-framework/allurectl)                       | [allurectl.rb](./Formula/allurectl.rb)                   | Command-line tool for Allure TestOps.                                                                                                    |
 
 ## Casks
 
