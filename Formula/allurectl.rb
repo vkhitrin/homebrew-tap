@@ -1,7 +1,6 @@
 class Allurectl < Formula
   desc "Command-line tool for Allure TestOps"
   homepage "https://github.com/allure-framework/allurectl"
-  version "2.22.0"
   license :cannot_represent
 
   livecheck do
@@ -13,13 +12,13 @@ class Allurectl < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/allure-framework/allurectl/releases/download/#{version}/allurectl_darwin_amd64"
-      sha256 "5e48cdff132995b251d2c4efe531bf96d503982d08b19918504fe91610686d2a"
+      url "https://github.com/allure-framework/allurectl/releases/download/2.22.1/allurectl_darwin_amd64"
+      sha256 "5784ca912f5ebeaa092b117f6bada3e3dfb09e3f812d58dc44782b19d38501e1"
     end
 
     on_arm do
-      url "https://github.com/allure-framework/allurectl/releases/download/#{version}/allurectl_darwin_arm64"
-      sha256 "d9d30cbf3fce8f50e1e3ce2bc85facbb8bab530ac08a5d1fc39d52cbcebd78e5"
+      url "https://github.com/allure-framework/allurectl/releases/download/2.22.1/allurectl_darwin_arm64"
+      sha256 "5b5505d72f6f1fc2a70d7feced556d4222baa31cfee5ecabe758689a6d107f01"
     end
   end
 

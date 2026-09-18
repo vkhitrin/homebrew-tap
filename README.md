@@ -31,6 +31,7 @@ brew install --cask <CASK>
 | [simian](https://github.com/quandarypeak/simian)                                                 | [simian.rb](./Formula/simian.rb)                         | Simian Similarity Analyzer                                                                                                               |
 | [vkhitrin/hub-tool](https://github.com/vkhitrin/hub-tool)                                         | [hub-tool.rb](./Formula/hub-tool.rb)                     | Fork of the previous deprecated <https://github.com/docker/hub-tool>.                                                                     |
 | [allure-framework/allurectl](https://github.com/allure-framework/allurectl)                       | [allurectl.rb](./Formula/allurectl.rb)                   | Command-line tool for Allure TestOps.                                                                                                    |
+| [opengrep/opengrep](https://github.com/opengrep/opengrep)                                         | [opengrep.rb](./Formula/opengrep.rb)                     | Static code analysis engine to find security issues in code.                                                                             |
 
 ## Casks
 

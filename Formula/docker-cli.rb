@@ -1,8 +1,8 @@
 class DockerCli < Formula
   desc "Command-line client for Docker"
   homepage "https://docker.com"
-  url "https://download.docker.com/mac/static/stable/aarch64/docker-29.7.2.tgz"
-  sha256 "b8683ed19d1f06048a496f9b8429e2c71d0b088d475b7487c054ea3666c02a3c"
+  url "https://download.docker.com/mac/static/stable/aarch64/docker-29.8.1.tgz"
+  sha256 "5a8f5604d7673202b2af925229d15eb4bbb86f7f542e4ac8cd7aa3f14cfa0f8b"
   license "Apache-2.0"
 
   livecheck do
@@ -14,7 +14,7 @@ class DockerCli < Formula
 
   def install
     bin.install "docker"
-    generate_completions_from_executable(bin / "docker", "completion")
+    generate_completions_from_executable(bin/"docker", "completion")
   end
 
   def caveats
@@ -27,6 +27,6 @@ class DockerCli < Formula
   end
 
   test do
-    assert_match "docker", shell_output("#{bin}/ --version")
+    assert_match "Docker version #{version}", shell_output("#{bin}/docker --version")
   end
 end
